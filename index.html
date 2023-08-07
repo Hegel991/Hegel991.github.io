@@ -1,281 +1,199 @@
-<html lang="zh-CN">
+index.html
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="renderer" content="webkit" />
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="MobileOptimized" content="320" />
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>王汝家 个人主页 </title>
-	<script>
-		// meta
-		! function (userAgent) {
-			var screen_w = parseInt(window.screen.width),
-				scale = screen_w / 1360;
-			if (/Android (\d+\.\d+)/.test(userAgent)) {
-				var version = parseFloat(RegExp.$1);
-				document.write(version > 2.3 ? '<meta name="viewport" content="width=1360, minimum-scale = ' + scale + ", maximum-scale = " + scale + ', target-densitydpi=device-dpi">' : '<meta name="viewport" content="width=1360 target-densitydpi=device-dpi">');
-			} else {
-				document.write('<meta name="viewport" content="width=1360, user-scalable=yes, target-densitydpi=device-dpi">');
-			}
-		}(navigator.userAgent);
-
-	</script>
-    
-    
-	<meta name="viewport" content="width=1360, user-scalable=yes, target-densitydpi=device-dpi">
-    
-	<meta name="keywords" content="">
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="https://faculty.sustech.edu.cn/wp-content/themes/nkdgrzy/static/css/bootstrap.min.css?459071" />
-	<link rel="stylesheet" href="https://faculty.sustech.edu.cn/wp-content/themes/nkdgrzy/static/css/swiper.min.css?736578" />
-	<link rel="stylesheet" href="/wp-content/themes/nkdgrzy/static/css/teachers_new.css?313312" />
-
-	<script src="https://faculty.sustech.edu.cn/wp-content/themes/nkdgrzy/js/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>沙雕小星星</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-<header>
-	<div class="head">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-					<div class="logo">
-													<a href="/"><img src="https://faculty.sustech.edu.cn/wp-content/themes/nkdgrzy/images/logo.png" /> </a>
-											</div>
-
-					<div class="teach_link">
-						<a href="/"><img src="https://faculty.sustech.edu.cn/wp-content/themes/nkdgrzy/static/images/teacher.png" /> </a>
-					</div>
-				</div>
-				<div class="col-lg-7" align="right">
-
-					<div class="lan_change">
-						<p style="display: none"><!-- 预留备份判断 -->
-												</p>
-                        
-                        
-						<a href="/zhaoyh/">中</a>
-						<a>&nbsp;&nbsp;|&nbsp;&nbsp;</a>
-                        <a href="/zhaoyh/en/">EN</a>
-                        					</div>
-
-					<div class="searchbox">
-						<form method="get" action="https://faculty.sustech.edu.cn/" >
-							<input type="hidden" name="tagid"  value="zhaoyh">
-							<input type="text" name="s" id="keyword"  style="color: #666;"/>
-							<button type="submit" class="btn_submit" ></button>
-						</form>
-					</div>
-
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-</header>
-
-<section >
-	<div id="pane">
-
-		
-		
-				<div class="tech_ban"  style="background-image: url(http://manufacture.nimte.cas.cn/sciUnit/team/laser/team/202111/W020211130497377117163.jpg);"></div>
+    <div class="btn">
+        <p>&nbsp;👇WATCH MY CV👇</p>
+    </div>
+    <div class="top">
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank">我的兴趣</a>
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank">我的过去</a>
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank">我的梦想</a>
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank" style="float:right">小风的博客</a>
+    </div>
+    <div class="content">
+    
+        <h1 class="avr">Give AR/VR Eyes and Brain</h1>
+    </div>
 
 
-		<div class="main_land">
-			<div class="container">
+    <div class="yinyue">
+        <img class="music" src="./33.png" alt="">
+        <audio autoplay="autoplay" id="audio" loop="loop">
+            <source src="./music1.mp3" type="audio/MP3">
 
-				<!--教师头像、研究-->
-				<div class="teachers_info">
-						<dl>
-														<dt class="bgimgdt" style="background-image: url(http://manufacture.nimte.cas.cn/sciUnit/team/laser/team/202111/W020211130497377117163.jpg);">
-								<img class="opavatarimg" src="http://manufacture.nimte.cas.cn/sciUnit/team/laser/team/202111/W020211130497377117163.jpg" />
-								<i></i>
-							</dt>
+        </audio>
 
-						<dd >
+    </div>
+    <div class="row">
+        <div class="centercolumn">
+            <div class="card">
 
-							
-							<ul class="part_links">
-								<a class="js_about">教师主页</a><!--  href="?tagid=zhaoyh" -->
-								<!--<a class="js_team">-->
-                                <a id="menu-item-7" href="/?cat=2&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">团队成员</a><!--  href="?cat=2&tagid=zhaoyh" -->
-                                
-                                
-								<li id="menu-item-8"><a href="/?cat=3&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">科研项目</a></li>
-								<a class="js_yanjiu" style="display: none;">研究领域</a><!--  href="?cat=45&tagid=zhaoyh" -->
-								<!--<a class="js_chengguo">--><a id="menu-item-9" href="/?cat=4&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">学术成果</a><!--  href="?cat=4&tagid=zhaoyh" -->
-                                
-                                <li id="menu-item-103026" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-103026"><a href="/?cat=77&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">教学</a></li>
-                                
-                                <li id="menu-item-105928" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105928"><a href="/?cat=79&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">科研分享</a></li>
-                                
-								<!--<a class="js_news">--><a id="menu-item-10" href="/?cat=5&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">新闻动态</a><!--  href="?cat=5&tagid=zhaoyh" -->
-                                
-                                <li id="menu-item-78646" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-78646"><a href="/?cat=59&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">疼痛医学中心</a></li>
-                                
-                                <li id="menu-item-128977" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-128977"><a href="/?cat=88&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">成果介绍</a></li>
-                                <li id="menu-item-143820" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-128977"><a href="/?cat=102&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">软件</a></li>
-                                
-                                <li id="menu-item-176154" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-176154"><a href="/?cat=113&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">毕业去向</a></li>
-                                
-                                
-								<!--<a class="js_join">--><a id="menu-item-129" href="/?cat=11&tagid=zhaoyh&orderby=date&iscss=1&snapid=1&lang=zh">加入我们</a><!--  href="?cat=11&tagid=zhaoyh" -->
-								<a class="js_contact" style="display: none;">联系我们</a><!-- href="?page_id=2&tagid=zhaoyh" -->
-							</ul>
-						</dd>
+                <h2 id="biaoti">浮生六记卷一</h2><br />
+                <hr />
+                <h4 id="qita">2021 年 1 月 29日</h4>
 
-						<div class="clearfix"></div>
-					</dl>
+                <p style="text-indent:2em">我生于乾降二十八年(1763年)的冬天ー月十ニ日。那时天下承平，国家安泰。我生于读书人家家在苏州城沧浪亭畔，上天待我何等厚爱。</p>
+                <p style="text-indent:2em">回想这一生，真如东坡先生所说“事如春梦了无痕”，如果不将之记下来，未免辜负了天赋幸运。</p>
+                <p style="text-indent:2em">
+                    而我总觉得，《诗三百》以《关》为开篇，这是将世间夫妇之爱放在卷首。那么我何妨也将之放在最开始，
+                    余下的再慢慢道来。只是惭愧自己年少失学，文字粗浅，所写所记，皆是真情实事而已。如果一定要挑剔其中的文法错漏，那就是对着待磨的铜镜，却希冀它明察秋毫。
+                </p>
+                <p style="text-indent:2em">
+                    小时候我与金沙于家的女儿有过婚约。那女孩子八岁夭折。后来娶妻陈氏，名芸，字淑珍，她的父亲陈心馀是我舅舅，舅母金氏，还有一个表弟名为克昌。
+                    芸天性聪慧，牙牙学语时，其父教她《琵琶行》，一学能便能背诵。她四岁时父亲去世，弱母幼弟，家徒四壁。所幸芸女红针
+                    线十分出色，到她年纪稍长，一家三口的生计便着落在她针指间的辛劳，不仅家人衣食周全，还能供克昌读书。
+                </p>
+                <p style="text-indent:2em">
+                    有一天，她在克昌的书箱里翻到《琵琶行》，回想儿时背诵的内容，逐字辨识，学会了识字。刺绣的闲暇她自学不辍，渐渐通晓诗词，曾写过“秋侵人影瘦，霜染菊花肥”
+                    这样清丽的诗句。十三岁时，母亲带我回娘家小住。芸比我大十个月，我一直把她叫作“淑姐姐”。我们两小无猜，她悄悄给我看自己的诗句
+                    我感叹她才思清雅灵秀，却也暗暗担心，如此的聪慧敏感，恐怕不是福泽深厚之相。
+                </p>
+                <p style="text-indent:2em">
+                    尽管如此，我已倾心于芸，不能释怀。私下对母亲说：“我若娶妻，一定要娶淑姐姐。”母亲也喜欢她的温柔和顺，便摘下金指环相赠，作为信物与陈家订下婚约。
+                </p>
+            </div>
+            <br /><br />
+            <div class="card">
+                <h2 id="biaoti">闺房之乐</h2><br />
+                <hr />
+                <h4 id="qita">2020 年 1 月 30日</h4>
+                <p style="text-indent:2em">
+                    那一天是乾隆四十年(1775年)七月十六日，我与芸订婚。
 
-				</div>
+                </p>
+                <p style="text-indent:2em">
+                    这一年冬天，芸的堂姐出嫁，我又跟着母亲前去观礼。族中
+                    组妹都来送嫁，满室新裁衣裳的鲜亮颜色，唯有芸衣着淡雅，只
+                    双鞋是新的。我偷看她的新鞋，刺绣精巧美丽，悄悄问她，她
+                    说是自己做的，这才知道芸的聪慧敏捷，不止在诗词一道
+                    这时的芸清秀瘦弱，窄窄的肩，脖颈修长，弯弯的眉毛，眼
+                    睛灵秀俏丽，顾盼间神韵动人。唯是上唇略短，微露出两颗牙
+                    齿，虽然这似乎不是有福之相，但别有一种妩媚娇柔之感，让人怦然心动。
+                </p>
+                <p style="text-indent:2em">
+                    央她再给我看她的诗稿，发现多是未能成篇的残句，或是一
+                    联，或是三四行。问她为何，她笑着说：“自己随手写的，也没人
+                    指点，留待懂诗的知己教我，一起推敲完成。”
+                    我开玩笑地把她的诗稿题作“锦囊佳句”，却不知这一个玩
+                    笑，已经预示了芸日后的命运。
+                </p>
+                <p style="text-indent:2em">
+                    “锦囊佳句”
+                </p>
+                <p style="text-indent:2em">
+                    （此处用唐代诗人李贺故事。李贺少年时出游，常有一仆僮背
+                    着锦囊跟随。每有诗兴，他就把所得诗句记下来，投入锦囊中
+                    称为“锦囊佳句”。据说其祖母见到这锦囊，感叹道：“这孩子写
+                    诗是要把心呕出来啊。”而李贺果然早夭。所以沈复题“锦囊佳
+                    句”，虽然贴切，却非佳兆。）
+                </p>
+                <p style="text-indent:2em">
+                    这一夜，和兄弟们到城外送亲，回来时已过半夜，我觉得
+                    饿了，仆妇呈上蜜枣，正嫌太甜，芸出来，悄悄拽我的袖子。我心领神会，跟她回房，
+                    原来她在房中藏着粥和几样小菜，还是热的。
+                </p>
+            </div>
 
-    <script>
-        $("#menu-item-78646").hide();
-    </script>
+        </div>
 
 
-    <script>
-        $("#menu-item-103026").hide();
-    </script>
-
-
+    </div>
+   
+    
+    <br /><br />
+    <button class="bt" onclick="window.open('https://blog.csdn.net/weixin_51263734')">MY CSDN BLOG</button>
 
     <script>
-        $("#menu-item-105928").hide();
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
     </script>
-
-
-
-
+    
+    <div class="footer">
+        <br />
+        <p>希望能成为有梦想 有温度的教技人</p><br />
+        <p>你好 我是风小风</p><br />
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank"><img class="someimg" src="./hou.png" alt="" width="30"></a>
+        <abbr title="QQ账号：2633386281"><img class="someimg" src="./qq.png" alt="" width="30"></abbr>
+        <abbr title="邮箱：fzx2003zhixue@163.com"><img class="someimg" src="./mail.png" alt="" width="30"></abbr>
+    </div>
     <script>
-        $("#menu-item-128977").hide();
+        //鼠标点击出现爱心特效  这部分特效是从一个网页搬过来的  觉得挺好看的
+        (function (window, document, undefined) {
+            var hearts = [];
+            window.requestAnimationFrame = (function () {
+                return window.requestAnimationFrame ||
+				window.webkitRequestAnimationFrame ||
+				window.mozRequestAnimationFrame ||
+				window.oRequestAnimationFrame ||
+				window.msRequestAnimationFrame ||
+				function (callback) {
+				    setTimeout(callback, 1000 / 60);
+				}
+            })();
+            init();
+            function init() {
+                css(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+                attachEvent();
+                gameloop();
+            }
+            function gameloop() {
+                for (var i = 0; i < hearts.length; i++) {
+                    if (hearts[i].alpha <= 0) {
+                        document.body.removeChild(hearts[i].el);
+                        hearts.splice(i, 1);
+                        continue;
+                    }
+                    hearts[i].y--;
+                    hearts[i].scale += 0.004;
+                    hearts[i].alpha -= 0.013;
+                    hearts[i].el.style.cssText = "left:" + hearts[i].x + "px;top:" + hearts[i].y + "px;opacity:" + hearts[i].alpha + ";transform:scale(" + hearts[i].scale + "," + hearts[i].scale + ") rotate(45deg);background:" + hearts[i].color;
+                }
+                requestAnimationFrame(gameloop);
+            }
+            function attachEvent() {
+                var old = typeof window.onclick === "function" && window.onclick;
+                window.onclick = function (event) {
+                    old && old();
+                    createHeart(event);
+                }
+            }
+            function createHeart(event) {
+                var d = document.createElement("div");
+                d.className = "heart";
+                hearts.push({
+                    el: d,
+                    x: event.clientX - 5,
+                    y: event.clientY - 5,
+                    scale: 1,
+                    alpha: 1,
+                    color: randomColor()
+                });
+                document.body.appendChild(d);
+            }
+            function css(css) {
+                var style = document.createElement("style");
+                style.type = "text/css";
+                try {
+                    style.appendChild(document.createTextNode(css));
+                } catch (ex) {
+                    style.styleSheet.cssText = css;
+                }
+                document.getElementsByTagName('head')[0].appendChild(style);
+            }
+            function randomColor() {
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
+            }
+        })(window, document);
     </script>
-
-
-
-
-    <script>
-        $("#menu-item-143820").hide();
-    </script>
-
-
-
-
-
-    <script>
-        $("#menu-item-8").hide();
-    </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-        $("#menu-item-176154").hide();
-    </script>
-
-
-
-
-<style>
-.area a{color:#FFF;text-decoration:underline}
-</style>
-<script src="https://faculty.sustech.edu.cn/wp-content/themes/nkdgrzy/static/js/slides-1.1.1-min.js"></script>
-
-	<!--教师主页-->
-	<div class="teachers_desc" id="js_1">
-		<div class="tags">
-			<h2 class="t_name">王汝家</h2>
-
-			<div class="taglist">
-                                    				<a href="http://www.researcherid.com/rid/H-6538-2018" target="_blank" >ResearcherID</a>
-            
-			</div>
-
-			<div class="clearfix"></div>
-		</div>
-
-		<p>
-			<em class="t_zw">博士后 </em>
-			<span class="t_xy">先进制造研究所  
-                
-                </span>
-		</p>
-
-		<div class="t_descs">
-			<p>
-				王汝家，博士，博士毕业于西安交通大学机械工程学院。</p><p>
-主要研究方向为特种能场复合先进制造技术。目前已在国际期刊发表第一/通讯SCI论文6余篇，授权发明专利1项。作为项目负责人已主持博士后面上基金、宁波市自然科学基金等。			</p>
-		</div>
-
-<style>
-.jsjj_ct,.jsjj_ct li{font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;}
-</style>
-
-		<div class="js_background">
-			            
-			<h3 style="text-align: center;margin:13px 0;">个人简介</h3>
-							<div class="jsjj_ct" style="">
-					<div><strong><span style="font-family: arial,helvetica,sans-serif;">个人简介</span></strong></div>
-<div><span style="font-family: arial,helvetica,sans-serif;"><span style="font-family: arial,helvetica,sans-serif;">王汝家，</span></div>
-<div> </div>
-<div><strong><span style="font-family: arial,helvetica,sans-serif;">研究方向及团队简介</span></strong></div>
-<div><span style="font-family: arial,helvetica,sans-serif;">本团队致力于微纳米技术领域高效精密放电及电化学技术的基础理论及应用研究。研究方向以极限精度为关键字，以X射线科学、半导体器件制造、航空制造、生体材料、超精密光学及模具为应用对象，以表面科学、电磁、电化学、热流体、光学等学科知识为基础，开展微纳米加工、精密成形以及精密转写技术研究。研究方向包括：并列放电高效电火花加工，精密电解加工，特殊构件电化学增材制造，电场辅助超精密加工，微纳加工与器件，医疗器械开发等。</span></div>
-<div> </div>
-<div><span style="font-family: arial,helvetica,sans-serif;"><strong>教育经历</strong></span><br />
- <span style="font-family: arial,helvetica,sans-serif;">◆ 2014.09 - 2021.06   西安交通大学  机械工程   博士</span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2010.09 - 2014.06   郑州大学      机械工程及其自动化  学士 </span></div>
-<div> </div>
-<div><b><span style="font-family: arial,helvetica,sans-serif;">工作经历</span></b></div>
-<div><span style="font-family: arial, helvetica, sans-serif;">◆ 2021.11 - 至今         中国科学院宁波材料技术与工程研究所 先进制造技术研究所   博士后</span></div>
-<div><span style="font-family: arial,helvetica,sans-serif;">◆ 2019.12 - 2020.12   Purdue University 机械工程系   联合培养</span><br />
-<div> </div>
-<div><span style="font-family: arial,helvetica,sans-serif;"> <strong>所获荣誉及奖励</strong></span></div>
-<div><span style="font-family: arial,helvetica,sans-serif;">◆ 2019年  </span></div>
-<div><span style="font-family: arial,helvetica,sans-serif;">◆ 2019年  </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2019年  </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2018年 </span></div>
-<div><span style="font-family: arial,helvetica,sans-serif;">◆ 2018年 </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2017年 </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2017年 </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2016年 </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2014年 </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2013年 </span><br />
- <span style="font-family: arial,helvetica,sans-serif;"> ◆ 2012年 </span></div>
-				</div>
-			
-		</div>
-
-
-		<div class="links" id="links" style="font-size:16px; font-weight:bold;">个人简介</div>
-
-	</div>
-
-</div>
-
-
-
 </body>
 </html>
